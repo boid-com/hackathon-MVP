@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synk.build</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              synk: {
+                primary: '#6EE7A0', // Synk Green
+                forest: '#0A3D2E',  // Synk Forest
+                gold: '#EFD780',    // Sunlit Gold
+                graphite: '#1E1F20', // Neutral Dark
+                fog: '#F8F8F8',     // Neutral Light
+                // Gradient stops
+                gradTop: '#C9F2DD',
+                gradMid: '#DFF6E5',
+                gradBot: '#FCFAF2',
+              }
+            },
+            boxShadow: {
+              'solarpunk': '0px 4px 20px rgba(0, 0, 0, 0.04)',
+              'solarpunk-hover': '0px 8px 30px rgba(0, 0, 0, 0.08)',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 text-gray-900 antialiased h-screen overflow-hidden">
+    <div id="root" class="h-full"></div>
+  </body>
+</html>
