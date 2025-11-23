@@ -9,6 +9,8 @@ Why it was built
 Good ideas stall because early-stage creators get stuck defining scope, user flows, and data structures. This tool removes that friction. The goal is to give creators a fast path from concept to clarity, so they spend less time guessing and more time building. The hackathon MVP focuses on just the Product Manager experience so the core interaction loop can be validated quickly.
 
 How to run it
+
+You can view it live: https://synk-build-51957304822.us-west1.run.app/
 	1.	Clone the repo
 	2.	Install dependencies (npm install or bun install)
 	3.	Add your OpenAI / VertexAI key to .env
